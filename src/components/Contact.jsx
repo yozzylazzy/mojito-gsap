@@ -25,8 +25,8 @@ const Contact = () => {
             .to('#f-right-leaf', {
                 y: '-50', duration: 1, ease: 'power1.inOut'
             }).to('#f-left-leaf', {
-                y: '-50', duration: 1, ease: 'power1.inOut'
-            }, '<')
+                y: '0', duration: 1, ease: 'power1.inOut'
+            }, '<') // the '<' used for before. So f leaf will move at the same time with right leaf (cause it's the last elemen)
     })
 
     return (
